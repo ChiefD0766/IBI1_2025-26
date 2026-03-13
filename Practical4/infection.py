@@ -14,7 +14,7 @@ infected = initial_infected
 day = 1
 print("Day",day,infected,"infected students")
 while infected < total_students:
-    infected = infected*(1+growth_rate)
+    infected = round(infected*(1+growth_rate))
     day += 1
     print("Day",day,infected,"infected students")
 
