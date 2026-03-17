@@ -22,5 +22,5 @@ else:
     print("The gene of interest in not included in the dataset.")
 
 #calculate the average of expression values
-avrg = sum(values) / len(values)
+avrg = np.mean(values)
 print("The average gene expression level across all genes is:", avrg)
