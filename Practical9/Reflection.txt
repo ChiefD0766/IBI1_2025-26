@@ -1,0 +1,6 @@
+This practical was a really useful experience for me.
+At the beginning, I found it a bit challenging to understand how to spatialise the SIR model into visible figures, especially when using numbers in an array to simulate the population. 
+However, once I followed the steps in the practical and broke down the principle thoroughly, it became much easier to follow.
+I found that the numpy tool does have various useful functions when realizing the generation of random data and dealing with arrays.
+I also felt a bit hard in designing a perfect loop with multiple preconditions to be considered, which is the core of the algorithm.
+Overall, this practical helped me connect probability knowledge with real programming, and I feel more confident about modelling and simulation now.
