@@ -45,10 +45,11 @@ medians = dalys_00_06.groupby("Year")["DALYs"].median() # "groupby" learned from
 print("\n Global Median DALYs (2000-2006) - SARS Context Analysis ")
 for year in range(2000, 2007):
     print(f"Global Median DALYs in {year}: {medians[year]}")
-plt.plot(medians.index, medians.values, "b+", label='Global Median DALYs')
-plt.scatter(2003, medians[2003], color='red', label='2003 (SARS Outbreak)')
+plt.plot(medians.index, medians.values, 'b-o', label='Global Median DALYs')
+plt.scatter(2003, medians[2003], color='red', s=80, label='2003 (SARS Outbreak)')
 plt.xlabel("Year")
 plt.ylabel("Global Median DALYs Rate")
+plt.legend()
 plt.title("Global Median DALYs Rate (2000-2006) - SARS Impact Analysis")
 plt.show()
 
