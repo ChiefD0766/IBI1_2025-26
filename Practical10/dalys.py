@@ -8,7 +8,7 @@ dalys_data = pd.read_csv("dalys-rate-from-all-causes.csv")
 
 # show the third and fourth columns (the year and the DALYs) for the first 10 rows (inclusive)
 print("\n The year and the DALYs for the first 10 rows")
-print(dalys_data.iloc[0:10, [2, 3]])
+print(dalys_data.iloc[0:10, 2:4])
 
 # Answer1: Year 1990 reported the maximum DALYs across the first 10 years
 
