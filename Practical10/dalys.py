@@ -10,7 +10,7 @@ dalys_data = pd.read_csv("dalys-rate-from-all-causes.csv")
 print("\n The year and the DALYs for the first 10 rows")
 print(dalys_data.iloc[0:10, 2:4])
 
-# Answer1: Year 1990 reported the maximum DALYs across the first 10 years
+# Answer1: Year 1998 reported the maximum DALYs across the first 10 years in Afghanistan
 
 # fnd every row where the Entity is “Zimbabwe”
 is_zimbabwe = dalys_data["Entity"] == "Zimbabwe"
