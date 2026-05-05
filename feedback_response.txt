@@ -1,0 +1,2 @@
+The formative feedback pointed out that my former commit message on fork "Practical3" was not formative enough (only containing a single word "edit").
+To fix this, I update the commit messages into a more specific sentence decribing the last change I made in the txt. files.
