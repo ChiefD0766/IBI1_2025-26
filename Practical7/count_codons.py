@@ -51,10 +51,10 @@ else:
 
 #pie chart generation
 if codon_count:
-    plt.figure
-    plt.pie(codon_count.values(), labels=codon_count.keys(), )
+    plt.figure(figsize=(12,12))
+    plt.pie(codon_count.values(), labels=codon_count.keys(),textprops={'fontsize': 7} )
     plt.title("Codon Distribution Upstream of Stop Codon:"+ target_sc)
-   
+    plt.show()
     plt.savefig(f'codon_distribution_{target_sc}.png')
     plt.close()
     print(f"\nPie chart saved as: codon_distribution_{target_sc}.png")
