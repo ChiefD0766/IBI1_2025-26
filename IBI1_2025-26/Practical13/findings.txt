@@ -14,4 +14,4 @@ Total score: -309
 Percentage identity: 5.536332179930796%
 
 As a result, human and mouse DLX5 share the highest sequence identity, which indicates they are the most closely related ones. This proves that the DLX5 is a highly conserved protein across placental mammals (Eutheria)
-There exists significant differences in the alignment results between the two DLX5 sequences and the random protein sequence. This validate the biological significance of the protein's conservation.
+There exists significant differences in the alignment results between the two DLX5 sequences and the random protein sequence. This validate the biological significance of the DLX5 protein's conservation.
