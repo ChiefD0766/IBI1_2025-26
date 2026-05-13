@@ -1,0 +1,17 @@
+From the UniProt database, I found the length of the human DLX5 protein is 289 amino acids, and the subcellular location is the nucleus.
+The percentage identity of retrieved alignments ranges from 83.2% to 100%.
+Below is the alignment score and percentage of identical amino acids for each of the three comparisons that I performed using Python:
+Alignment of Human DLX5 and Mouse DLX5
+Total score: 1490
+Percentage identity: 96.53979238754326%
+
+Alignment of Human DLX5 and Random
+Total score: -324
+Percentage identity: 4.844290657439446%
+
+Alignment of Mouse DLX5 and Random
+Total score: -309
+Percentage identity: 5.536332179930796%
+
+As a result, human and mouse DLX5 share the highest sequence identity, which indicates they are the most closely related ones. This proves that the DLX5 is a highly conserved protein across placental mammals (Eutheria)
+There exists significant differences in the alignment results between the two DLX5 sequences and the random protein sequence. This validate the biological significance of the protein's conservation.
